@@ -1,0 +1,11 @@
+{
+    "name": "__void",
+    "short_name": "__void",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "void :)",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+}
