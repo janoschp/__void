@@ -22,8 +22,10 @@
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="__void">
+  <meta name="theme-color" content="#FFFFFF">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
@@ -31,6 +33,19 @@
 
   <title>__void</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFFF;
+    }
+
+    /* Hide loading indicator or make it blend in */
+    .loading {
+      display: none;
+    }
+  </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
